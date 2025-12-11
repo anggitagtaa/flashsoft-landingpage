@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+
+
+<head>
+    <!-- ✅ Basic Meta -->
+   
+    <title>Flashsoft Indonesia - Software Agency</title>
+   
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #f2f3f6;
+            font-family: 'Inter', sans-serif;
+        }
+
+
+        /* 🌐 Navbar */
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 8%;
+            background-color: #673499;
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+
+        nav img {
+            height: 40px;
+        }
+
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+
+        .nav-links a {
+            color: #f1f1f1;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+
+        .nav-links a:hover {
+            color: #1EBE57;
+        }
+
+
+        .btn-nav {
+            background-color: #1EBE57;
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+
+        .btn-nav:hover {
+            background-color: #18a74a;
+        }
+
+
+        /* 📱 Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+        .hero {
+    background: #673499;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin: auto;
+}
+
+
+.hero h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+
+.hero .subtext {
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+
+.hero .btn {
+    background: white;
+    color: #673499;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+.hero .btn:hover {
+    background: #f0f0f0;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 3% 7%;
+}
+  header,
+        section,
+        footer {
+            padding: 60px 20px;
+        }
+
+
+        h1,
+        h2,
+        h3 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+
+        p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+
+        .section-card {
+            background: #6a1b9a;
+            padding: 3% 5%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 0 1%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+   
+        .grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin-top: 30px;
+        }
+
+
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            padding: 3% 7%;
+        }
+ .grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin-top: 30px;
+        }
+
+
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .price-card {
+            background: white;
+            border: 2px solid #673499;
+        }
+
+
+
+
+        .text-white {
+            color: white;
+        }
+
+
+        .text-start {
+            text-align: left;
+        }
+                .btn {
+            background: white;
+            color: #673499;
+            padding: 10px 20px;
+            border: 1px solid #673499;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+
+        .btn:hover {
+            background: #f0f0f0;
+        }
+
+
+        .grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin-top: 30px;
+        }
+
+
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .section-card {
+            background: #6a1b9a;
+            padding: 3% 5%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 0 1%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+       
+        /* CTA Section */
+        .cta {
+            background: #673499;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin: auto;
+        }
+
+
+        .cta form {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            color: #333;
+            max-width: 512px;
+            margin: 5% auto;
+        }
+
+
+        .cta input,
+        .cta select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            margin-top: 5px;
+            background: #f7f7f7;
+        }
+
+
+        .cta button {
+            background: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+
+        .cta button:hover {
+            background: #1EBE57;
+        }
+
+
+
+
+        .text-white {
+            color: white;
+        }
+
+
+        .text-start {
+            text-align: left;
+        }
+          footer {
+            text-align: center;
+            background: #f8f8f8;
+            padding: 30px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+   
+</head>
+
+
+<body>
+
+
+    <!-- ✅ Navbar -->
+    <nav>
+        <img src="https://flashsoftindonesia.com/fs-logo-horizontal-white.png" alt="Flashsoft Indonesia Logo">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#benefit">Keunggulan Kami</a>
+            <a href="#testimonial">Testimoni</a>
+        </div>
+        <a href="#pricing" class="btn-nav">Daftar Sekarang</a>
+    </nav>
+<!-- 1️⃣ Hero Section -->
+<section class="hero" id="home">
+    <h1>Flashsoft Indonesia</h1>
+    <p class="subtext">
+        Kami membantu Anda membangun solusi software dan mengembangkan talenta digital
+        melalui program pelatihan, bootcamp, dan pembelajaran interaktif.
+    </p>
+</section>
+<!-- 2️⃣ Problem & Solution Section -->
+<section class="section" id="problem">
+    <!-- Kiri: Card Ungu -->
+    <div style="flex:1; min-width:280px; padding:30px; text-align:center;">
+        <img src="https://flashsoftindonesia.com/fs-logo-vertical.png" alt="Logo Flashsoft" width="50%">
+    </div>
+
+
+    <!-- Kanan: Tantangan -->
+    <div style="flex:1; min-width:300px;">
+        <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
+            <span style="color:#6a1b9a;font-weight: bolder;">##</span>
+            Kendala dan Solusi
+        </p>
+        <h2
+            style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
+            <span style="color:#6a1b9a;font-weight: bolder;">Kendala</span> yang Sering Dihadapi Calon
+            Programmer
+        </h2>
+        <ul style="text-align:start; list-style:none;">
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                    Belajar Sendiri Tanpa Arah
+                </h3>
+            </li>
+
+
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                    Kurang
+                    Latihan & Proyek Nyata
+                </h3>
+            </li>
+
+
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                    Tidak Punya Mentor
+                </h3>
+            </li>
+        </ul>
+
+
+        <hr style="color: #673499; margin: 30px 0;">
+        <h2 style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;">
+            <span style="color:#6a1b9a;font-weight: bolder;">Solusi</span> kami
+        </h2>
+        <ul style="text-align:start; list-style:none;">
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                    Program Belajar Terarah
+                </h3>
+            </li>
+
+
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                    Bimbingan Mentor Profesional
+                </h3>
+            </li>
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                    Latihan & Proyek Nyata
+                </h3>
+            </li>
+            <li>
+                <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                    <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                    Komunitas & Dukungan Belajar
+                </h3>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- 3️⃣ Features / Benefits -->
+    <section class="section-card" id="benefit">
+
+
+        <!-- Kiri: Keunggulan Kami -->
+        <div style="flex:2; min-width:300px; color:white;">
+
+
+            <!-- Subjudul -->
+            <p style="text-align:start; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:8px;">
+                <span style="color:white; font-weight:bolder;">##</span> Keunggulan Kami
+            </p>
+
+
+            <!-- Judul utama -->
+            <h2 style="font-size:36px; margin-bottom:20px; text-align:start; font-weight:lighter; line-height:1.3;">
+                Mengapa Memilih <span style="color:white; font-weight:bolder;">Kami</span>
+            </h2>
+
+
+            <!-- Daftar Keunggulan -->
+            <div style="display:grid; gap:12px; text-align:start; font-size:16px; line-height:1.6;">
+                <div>Belajar bisa dari nol — cocok untuk pemula tanpa pengalaman coding.</div>
+                <div>Materi selalu update mengikuti tren teknologi industri.</div>
+                <div>Pendekatan belajar berbasis proyek (project-based learning).</div>
+            </div>
+
+
+        </div>
+
+
+        <!-- Kanan: Card Ungu -->
+        <div style="flex:1; min-width:280px; max-width:400px; padding:30px; text-align:center;">
+            <img src="https://flashsoftindonesia.com/fs-logo-vertical-white.png" alt="Logo Flashsoft" width="50%">
+        </div>
+    </section>
+   
+    <!-- 4️⃣ Social Proof / Testimonial -->
+    <section class="section" id="testimonial">
+        <div style="width: 100%;">
+            <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
+                <span style="color:#6a1b9a;font-weight: bolder;">##</span>
+                Testimoni
+            </p>
+            <h2
+                style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
+                Apa <span style="color:#6a1b9a;font-weight: bolder;">Kata</span> Mereka?
+            </h2>
+            <div class="grid">
+                <div class="card testimonial">
+                    “Awalnya saya tidak tahu apa-apa tentang coding. Sekarang saya sudah bisa membuat website sendiri!”
+                    <br>– <strong>Intan, Peserta Bootcamp Web Beginner</strong>
+                </div>
+                <div class="card testimonial">
+                    “Mentornya sabar banget dan materinya mudah dipahami. Belajar di Flashsoft bikin semangat terus!”
+                    <br>– <strong>Rafi, Siswa Private Coding</strong>
+                </div>
+                <div class="card testimonial">
+                    “Setelah ikut kelas, saya berhasil diterima magang di startup teknologi.”
+                    <br>– <strong>Dina, Alumni Live Coding React JS</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- 5️⃣ Pricing / Offer -->
+    <div class="grid">
+        <!-- #1 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+        </div>
+        <!-- #2 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+        </div>
+        <!-- #3 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Advanced</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+        </div>
+        <!-- #4 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Advanced</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+        </div>
+        <!-- #1 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Live Coding - Basic</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+        </div>
+        <!-- #2 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Live Coding - Basic</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+        </div>
+        <!-- #3 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Live Coding - Advanced</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+        </div>
+        <!-- #4 -->
+        <div class="card price-card">
+            <h3 class="text-start" style="margin-bottom: 0;">Live Coding - Advanced</h3>
+            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+        </div>
+    </div>
+   
+    <!-- 6️⃣ CTA Section -->
+    <section class="cta" id="contact">
+        <div class="grid">
+            <div style="flex: 1;padding: 0 10%;">
+                <!-- Subjudul -->
+                <p style="text-align:start; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:8px;">
+                    <span style="color:white; font-weight:bolder;">##</span> Kontak Kami
+                </p>
+
+
+                <!-- Judul utama -->
+                <h2 style="font-size:36px; margin-bottom:20px; text-align:start; font-weight:lighter; line-height:1.3;">
+                    Mulai Langkah Pertamamu Menjadi Programmer <span
+                        style="color:white; font-weight:bolder;">Hebat!</span>
+                </h2>
+                <p class="text-start">Bergabung bersama ratusan siswa yang sudah belajar di Flashsoft Programming
+                    School.</p>
+            </div>
+
+
+            <!-- FORM WHATSAPP -->
+            <div style="flex: 1;">
+                <img src="https://flashsoftindonesia.com/fs-logo-horizontal-white.png" alt="Logo Flashsoft" width="50%">
+                <form id="waForm" onsubmit="sendToWhatsApp(event)">
+                    <label>Nama Lengkap</label><br>
+                    <input type="text" id="name" placeholder="Masukkan nama" required><br><br>
+
+
+                    <label>Program yang diminati</label><br>
+                    <select id="program" required>
+                        <option value="">-- Pilih Program --</option>
+                        <option>Private Coding</option>
+                        <option>Live Coding</option>
+                        <option>Kelas CoolYeah</option>
+                        <option>Bootcamp</option>
+                    </select><br><br>
+
+
+                    <button type="submit">Kirim ke WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+
+
+            const name = document.getElementById("name").value.trim();
+            const program = document.getElementById("program").value;
+
+
+            // Nomor admin Flashsoft
+            const adminNumber = "6285363834829"; // ganti dengan nomor WA admin kamu
+
+
+            const message = `Halo Flashsoft! Saya ingin mendaftar.%0A
+    Nama: ${name}%0A
+    Program: ${program}%0A
+    Mohon info lebih lanjut ya!`;
+
+
+            const waLink = `https://wa.me/${adminNumber}?text=${message}`;
+            window.open(waLink, "_blank");
+        }
+    </script>
+  <!-- 7️⃣ Footer -->
+    <footer>
+        <p>© 2025 Flashsoft Indonesia — Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+
+
+</html>
+
